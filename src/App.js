@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import { useEffect, useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Gallery from './components/Gallery'
@@ -51,7 +51,7 @@ function App() {
                 </Routes>
             </Router>
         </div>
-    );
+    )
 }
 
 export default App;
